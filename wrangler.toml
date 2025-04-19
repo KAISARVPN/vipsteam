@@ -1,4 +1,4 @@
-name = "siren"
+name = "vipsteam"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -33,8 +33,8 @@ routes = [
 
 
 [[kv_namespaces]]
-binding = "SIREN"
-id = "f7a1c12a83d349bb8e8868e7d524ac4c"
+binding = "vipsteam"
+id = "f8c606840cbf0c35d63c4cb5512292c4"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -42,7 +42,7 @@ command = "cargo install -q worker-build && worker-build --release"
 build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
-UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
+UUID = "cc39b378-0ed3-44b7-be2a-fe119fa61b00"
 MAIN_PAGE_URL = "https://raw.github.com/KAISARVPN/vipsteam/refs/heads/master/web/index.html"
 SUB_PAGE_URL = "https://raw.github.com/KAISARVPN/vipsteam/refs/heads/master/web/sub.html"
 LINK_PAGE_URL = "https://raw.github.com/KAISARVPN/vipsteam/refs/heads/master/web/link.html"
