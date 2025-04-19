@@ -1,4 +1,4 @@
-name = "siren"
+name = "vipsteam"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -43,6 +43,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.github.com/KAISARVPN/vipsteam/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.github.com/KAISARVPN/vipsteam/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.github.com/KAISARVPN/vipsteam/refs/heads/master/web/link.html"
