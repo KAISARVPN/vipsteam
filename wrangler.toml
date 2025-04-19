@@ -1,4 +1,4 @@
-name = "siren"
+name = "vipsteam"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -33,7 +33,7 @@ routes = [
 
 
 [[kv_namespaces]]
-binding = "SIREN"
+binding = "VIPSTEAM"
 id = "f8c606840cbf0c35d63c4cb5512292c4"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
